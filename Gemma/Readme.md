@@ -49,4 +49,4 @@ This is test project and is presented in my youtube video to learn new stuffs us
 
 # Interviewer Ollama
 I tried tweeking the prompt a lil' bit to make the Gemma model to pose as an interviwer and ask me the questions related to all the latest LLMs, ML etc. But not sure if its the prompt that was the issue but I'm getting a list of questions and answers like below:
-![]()
+![](Ollama_interview.png)
