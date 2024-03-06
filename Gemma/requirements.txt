@@ -1,6 +1,0 @@
-chainlit==1.0.301
-langchain==0.1.10
-langchain-community==0.0.25
-langchain-core==0.1.29
-langchain-text-splitters==0.0.1
-openai==1.13.3
