@@ -1,5 +1,5 @@
 # langchain-gemma-ollama-chainlit
-Simple Chat UI using Gemma model via Ollama, LangChain and Chainlit
+Simple Chat UI using the Gemma model via Ollama, LangChain, and Chainlit
 
 ### Open Source in Action 🚀
 - [Gemma](https://ai.google.dev/gemma/docs/model_card) as Large Language model via [Ollama](https://ollama.com/)
@@ -9,14 +9,14 @@ Simple Chat UI using Gemma model via Ollama, LangChain and Chainlit
 
 ## System Requirements
 
-You must have Python 3.10 or later installed. Earlier versions of python may not compile.
+You must have Python 3.10 or later installed. Earlier versions of Python may not compile.
 
 ## Steps to Replicate 
 
-1. Fork this repository and create a codespace in GitHub as I showed you in the youtube video OR Clone it locally.
+1. Fork this repository and create a codespace in GitHub OR Clone it locally.
    ```
-   git clone https://github.com/sudarshan-koirala/langchain-gemma-ollama-chainlit.git
-   cd langchain-gemma-ollama-chainlit
+   https://github.com/MowlanicaBilla/All_about_LLM_projects.git
+   cd Gemma
    ```
 
 2. Create a virtualenv and activate it
@@ -24,7 +24,7 @@ You must have Python 3.10 or later installed. Earlier versions of python may not
    python3 -m venv .venv && source .venv/bin/activate
    ```
 
-3. OPTIONAL - Rename example.env to .env with `cp example.env .env`and input the environment variables from [LangSmith](https://smith.langchain.com/). You need to create an account in LangSmith website if you haven't already.
+3. OPTIONAL - Rename example.env to .env with `cp example.env .env`and input the environment variables from [LangSmith](https://smith.langchain.com/). You need to create an account on the LangSmith website if you haven't already.
    ``` 
    LANGCHAIN_TRACING_V2=true
    LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
@@ -32,7 +32,7 @@ You must have Python 3.10 or later installed. Earlier versions of python may not
    LANGCHAIN_PROJECT="your-project"
    ```
 
-4. Run the following command in the terminal to install necessary python packages:
+4. Run the following command in the terminal to install the necessary Python packages:
    ```
    pip install -r requirements.txt
    ```
@@ -43,10 +43,10 @@ You must have Python 3.10 or later installed. Earlier versions of python may not
    ```
 
 ## Disclaimer
-This is test project and is presented in my youtube video to learn new stuffs using the available open source projects and model. It is not meant to be used in production as it's not production ready. You can modify the code and use for your usecases ✌️
+This test project is presented in my youtube video to learn new stuff using the available open-source projects and models. It is not meant to be used in production as it's not production-ready. You can modify the code and use it for your use cases ✌️
 
 ---
 
 # Interviewer Ollama
-I tried tweeking the prompt a lil' bit to make the Gemma model to pose as an interviwer and ask me the questions related to all the latest LLMs, ML etc. But not sure if its the prompt that was the issue but I'm getting a list of questions and answers like below:
+I tried tweaking the prompt a lil' bit to make the Gemma model pose as an interviewer and ask me questions related to all the latest LLMs, ML etc. But not sure if its the prompt that was the issue but I'm getting a list of questions and answers like the below:
 ![](Ollama_interview.png)
