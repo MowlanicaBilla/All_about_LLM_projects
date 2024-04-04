@@ -36,5 +36,7 @@ Let me explain what it means. The first step in this case is that both for our d
 Next, for each token in the query, we will compute a similarity score with each token in your documents. Based on these individual similarity scores, we compute an overall score for each document or each chunk. These are called late interactions.
 
 ### Conclusion and Recommendation
-In this case, each token individually is contributing to the overall score rather than everything being compressed into a single vector. The embeddings that you get for each of these tokens are actually contextualized, so depending on the overall context in which this token is present, that is taken into account when the embeddings are computed.
+In this case, each token individually is contributing to the overall score rather than everything being compressed into a single vector. The embeddings that you get for each of these tokens are contextualized, so depending on the overall context in which this token is present, that is taken into account when the embeddings are computed.
 
+### References:
+* https://youtu.be/xTzUn3G9YA0?si=C7zxZoGYAacS8oPI
