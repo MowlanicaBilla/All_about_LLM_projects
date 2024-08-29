@@ -1,5 +1,5 @@
 ## Model Architecture
-![]()
+![](https://github.com/MowlanicaBilla/All_about_LLM_projects/blob/main/End_to_end_projects/AWS_projects/Blog_generation/Technical_blog_architecture.png)
 
 
 * In AWS Lambda an older version of `boto3` is present. Make sure to install the latest version of `boto3` or any required python packages using the following steps
